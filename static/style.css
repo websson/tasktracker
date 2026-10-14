@@ -1,0 +1,18 @@
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f4f6fb; color: #1d2433; }
+main { max-width: 720px; margin: 64px auto; padding: 0 20px; }
+h1 { margin: 0; font-size: 40px; }
+.sub { color: #6b7385; margin: 6px 0 28px; }
+.add { display: flex; gap: 10px; margin-bottom: 22px; }
+.add input { padding: 12px 14px; border: 1px solid #cfd5e3; border-radius: 8px; font-size: 16px; }
+.add input[name=title] { flex: 1; }
+.add button { padding: 12px 22px; border: 0; border-radius: 8px; background: #3d5afe; color: #fff; font-size: 16px; cursor: pointer; }
+.tasks { list-style: none; padding: 0; margin: 0; background: #fff; border-radius: 12px; box-shadow: 0 6px 24px -14px rgba(20,30,60,.35); }
+.tasks li { display: flex; align-items: center; gap: 14px; padding: 16px 20px; border-top: 1px solid #eef1f6; font-size: 18px; }
+.tasks li:first-child { border-top: 0; }
+.tasks form { margin: 0; }
+.tick { width: 26px; height: 26px; border: 2px solid #9aa4ba; border-radius: 7px; background: #fff; color: #2e7d32; font-weight: 700; cursor: pointer; }
+.title { flex: 1; }
+.done .title { color: #9aa4ba; text-decoration: line-through; }
+.badge { background: #fde2e1; color: #c62828; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+.due { color: #6b7385; font-size: 15px; min-width: 56px; text-align: right; }
+.cron { color: #6b7385; font-size: 14px; margin-top: 18px; }
